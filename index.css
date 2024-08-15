@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nevbar {
+    background-color: palevioletred;
+    overflow: hidden;
+    display: flex;
+}
+
+.nevigation {
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+
+.nev {
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.nevigation :hover {
+    background-color: rgb(20, 20, 169);
+    transition: 0.7s;
+}
+
+#active {
+    background-color: blue;
+    transition: 0.7s;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.media {
+    display: flex;
+}
+
+.media i {
+    display: flex;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0px 20px;
+}
+
+.insta i {
+    color: #d6249f;
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.insta :hover {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+    transition: 0.7s;
+    border-radius: 50%;
+}
+
+.fb i{
+    color: #4267B2;    
+}
+
+.fb :hover{
+    background: #4267B2;
+    color: white;
+    transition: 0.7s;
+}
+
+.yt i{
+    color: red;
+}
+
+.yt :hover{
+    background: red;
+    color: white;
+    transition: 0.7s;
+}
+
+.wa i{
+    color: #25D366;
+}
+
+.wa :hover{
+    background: #25D366;
+    color: white;
+    transition: 0.7s;
+    animation: alternate;
+}
